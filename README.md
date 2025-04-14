@@ -41,3 +41,26 @@ Read "target/thumbv7em-none-eabihf/debug/teensy4-rust-discovery.hex": 129428 byt
 Programming...............................................................................................................................
 Booting
 ```
+
+## Examples
+To run the examples `cargo run --example <example name> --release`.
+
+### ILI9341
+ILI9341 | => | Teensy 4.0
+----|----|-----
+VCC | -> | 3.3V
+GND | -> | GND
+SCK | -> | 13
+MISO | -> | 12
+MOSI | -> | 11
+CS | -> | 10
+DC | -> | 9
+RST | -> | 8
+LED | -> | 3.3V
+T_DIN | -> | MOSI
+T_DO| -> | MISO
+T_CS | -> | 4
+T_IRQ| -> | 3
+T_CLK| -> | SCK
+
+![ILI9341](teensy4_ili9341_bb.png)
