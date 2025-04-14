@@ -64,3 +64,11 @@ T_IRQ| -> | 3
 T_CLK| -> | SCK
 
 ![ILI9341](teensy4_ili9341_bb.png)
+
+### SSD1306
+SSD1306 | => | Teensy 4.0
+----|----|-----
+VCC | -> | 3.3V
+GND | -> | GND
+SDA | -> | 18
+SCL | -> | 19

@@ -21,7 +21,6 @@ features = [
 ]
 
 [dev-dependencies]
-embedded-hal = { version = "1.0.0" }
 embedded-graphics = "0.8.1"
 tinybmp = "0.6.0"
 mipidsi = "0.8.0"
@@ -31,6 +30,7 @@ defmt = "0.3"
 defmt-rtt = "0.4"
 panic-probe = { version = "0.3", features = ["print-defmt"] }
 embedded-hal-compat = "0.13.0"
+ssd1306 = "0.9.0"
 
 # Don't optimize build dependencies, like proc macros.
 # Helps with build times.
