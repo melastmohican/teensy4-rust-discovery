@@ -72,3 +72,27 @@ VCC | -> | 3.3V
 GND | -> | GND
 SDA | -> | 18
 SCL | -> | 19
+
+## ST7735
+ST7735S | -> | Teensy 4.0
+----|----|-----
+VCC | -> | 3.3V
+GND | -> | GND
+SCK | -> | 13
+MISO | -> | NC
+MOSI | -> | 11
+CS | -> | 10
+DC | -> | 9
+RST | -> | 8
+BL | -> | 7
+
+## GC9A01
+GC9A01 | -> | Teensy 4.0
+----|----|-----
+VCC | -> | 3.3V
+GND | -> | GND
+SCK | -> | 13
+MISO | -> | NC
+MOSI | -> | 11
+CS | -> | 10
+DC | -> | 9
