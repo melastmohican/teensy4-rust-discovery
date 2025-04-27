@@ -32,6 +32,11 @@ panic-probe = { version = "0.3", features = ["print-defmt"] }
 embedded-hal-compat = "0.13.0"
 ssd1306 = "0.9.0"
 st7735-lcd = "0.10.0"
+cortex-m = "0.7"
+cortex-m-rt = "0.7" # or the version you're using
+usb-device = "0.2"
+usbd-serial = "0.1"
+defmt-bbq = "0.1.0"
 
 # Don't optimize build dependencies, like proc macros.
 # Helps with build times.
